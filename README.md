@@ -1,21 +1,3 @@
-# EXLskills Free & Open-source Courseware Template
-
-This is the EXLskills free and open-source template. It includes a checklist, license, readme, and an index.yaml file to help you get started with creating an EXLskills-compatible course!
-
-## New Course Checklist
-
-- [ ] Update license parameters, specifically, add examples of what "source code" is in your course
-
-- [ ] Create the course structure using EOCS (these are your chapters, sequentials, and verticals)
-
-- [ ] Add your first piece of content to the course layout
-
-- [ ] Run `eocsutil verify` periodically to check that your course adheres to the EOCS format
-
-- [ ] Create an issue [here](https://github.com/exlskills/exlskills/issues/new?labels=new-course) to notify EXLskills of your intent to publish this course. After a brief review and validation, you should be ready to publish your EXLskills course. EXLskills team will add the course repo to the course pipeline and you should have your work on the master branch validated, converted, and published with each new commit.
-
-- [ ] Congratulations, you published this course and can now drop this checklist from your README.md file :)
-
 ## About EXLskills
 
 [EXLskills](https://exlskills.com) is on a mission to change education with an open-source online digital skills learning, certification, and peer-to-peer instruction platform that is committed to offering premium-quality courseware for 100% free via our open-source courseware methodology. The contents of this repository are developed using the [EXL Open Courseware Standard](https://github.com/exlskills/exl-open-courseware-standard) and are then imported/pushed to [EXLskills.com](https://exlskills.com) with the [eocsutil](https://github.com/exlskills/eocsutil) tool. This process is 100% transparent, free, and open-source.
