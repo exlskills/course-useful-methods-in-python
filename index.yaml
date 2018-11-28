@@ -4,7 +4,7 @@ display_name: Methods in Python
 org: EXLskills
 # This is the *unique* ID of your course (again) because we're maintaining compatability with other course formats. If you intend to use this with OLX or another course host, then it can have another value.
 course: methods_in_python
-course_image: https://s3-us-west-2.amazonaws.com/exlskills-course-logos/ap-java-course.jpg
+course_image: https://s3-us-west-2.amazonaws.com/exlskills-course-logos/course-plotting-python.png
 language: en
 weight: 8500
 est_minutes: 3600
