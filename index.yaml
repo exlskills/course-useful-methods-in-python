@@ -1,9 +1,9 @@
 # This is the *unique* ID of your course
-url_name: methods_python
+url_name: methods_in_python
 display_name: Methods in Python
 org: EXLskills
 # This is the *unique* ID of your course (again) because we're maintaining compatability with other course formats. If you intend to use this with OLX or another course host, then it can have another value.
-course: methods_in_python_course
+course: methods_in_python
 course_image: https://s3-us-west-2.amazonaws.com/exlskills-course-logos/ap-java-course.jpg
 language: en
 est_minutes: 3600
@@ -21,7 +21,7 @@ headline: Learn to code with the most useful methods in Python!
 description: |2
   As a reference for when you are coding, this course will showcase some of the most powerful tools in python!
   If you are looking for a true itroduction course, you should check out the introduction
-  to python by EXL skills!  As well, we have renouned instructors ready to help you at all times!
+  to python by EXLskills!  As well, we have renouned instructors ready to help you at all times!
 
 info_md: |2
   ## Methods in Python
