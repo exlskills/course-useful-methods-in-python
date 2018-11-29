@@ -11,7 +11,7 @@ We are going to begin by exploring what files are available to us.  In a new Col
 
 
 After doing this myself, I had the following output.  Yours should be similar if not exactly the same
-![image1](../images/Colde_snippet_1.jpeg)
+![image1](https://s3-us-west-2.amazonaws.com/exlskills-methods-in-python-course-assets/code_snippet_1.jpeg)
 
 
 Now that I know what is in my current folder, I am going to pick the file `'california_housing_test.csv'`
@@ -20,7 +20,7 @@ Now that I know what is in my current folder, I am going to pick the file `'cali
 
 Using the same code that we have used previously in this lecture, is it possible to count the number of lines in the file?  Try it yourself, and my code is below!
 
-![image2](../images/Code_snippet_2.jpeg)
+![image2](https://s3-us-west-2.amazonaws.com/exlskills-methods-in-python-course-assets/code_snippet_2.jpeg)
 
 ```python
 #  Function takes in the file name
