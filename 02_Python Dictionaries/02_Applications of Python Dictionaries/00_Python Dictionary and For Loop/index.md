@@ -4,12 +4,9 @@ Using the dictionary structure with for loops is incredibly efficient in python.
 
 The first example I am going to cover is expanding a dictionary into a list of lists.  Lets imagine that you have a dictionary where the key is the product, and the value is the number of the product in stock.  Below is an example of how I want to change my data structure:
 
-- **INPUT**
+-  INPUT: `fruits = {'banana':3,'apple':2, 'mango':1, 'kiwi':5}`
 
-`fruits = {'banana':3,'apple':2, 'mango':1, 'kiwi':5}`
-
-- **OUTPUT**
-`fruits_list = [
+-  OUTPUT: `fruits_list = [
     ['banana', 'banana', 'banana'],
     ['apple', 'apple'],
     ['mango'],
@@ -27,6 +24,7 @@ I am going to do this using list comprehension.
 
 
 I can write this as a for loop and then convert it to list comprehension which I think is more intuitive.  Below is the code as a for loop:
+
 
 ```python  
 # Initialize the dictionary
@@ -69,6 +67,7 @@ fruits_list = [[fruit]*quantity for fruit, quantity in fruits.items()]
 
 #print out the final list
 print(fruits_list)
+
 ```
 
 We will explore more list comprehension in the future, so for now just make sure you understand how we are using the `dictionary.items()` method
