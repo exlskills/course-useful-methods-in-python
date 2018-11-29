@@ -1,7 +1,6 @@
-# EXLskills Free & Open-source Courseware Template
+# EXLskills Free & Open-source Python Useful Methods Course
 
-This is the EXLskills free and open-source template. It includes a checklist, license, readme, and an index.yaml file to help you get started with creating an EXLskills-compatible course!
-
+As a reference for when you are coding, this course will showcase some of the most powerful tools in python! If you are looking for a true introductory course, you should check out the introduction to python by EXLskills!  As well, we have renouned instructors ready to help you at all times!
 
 ## About EXLskills
 
