@@ -33,10 +33,10 @@ We could think of a situation where we want to look up the rainfall by a specifi
 rain_percent = { 1980: '17%', 1981: '15%', 1982: '10%'}
 
 # Print out the whole thing
-print rain_percent
+print(rain_percent)
 
 # Look up based on specific year
-print rain_percent[1980]
+print(rain_percent[1980])
 
 # Output:
 # {1980: '17%', 1981: '15%', 1982: '10%'}
