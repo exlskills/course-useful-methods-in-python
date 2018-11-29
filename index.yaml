@@ -6,7 +6,7 @@ org: EXLskills
 course: methods_in_python
 course_image: https://s3-us-west-2.amazonaws.com/exlskills-course-logos/python-generic-gear-logo.png
 language: en
-weight: 8500
+weight: 0
 est_minutes: 3600
 primary_topic: Python
 repo_url: https://github.com/exlskills/template-course
