@@ -4,13 +4,19 @@ Using the dictionary structure with for loops is incredibly efficient in python.
 
 The first example I am going to cover is expanding a dictionary into a list of lists.  Lets imagine that you have a dictionary where the key is the product, and the value is the number of the product in stock.  Below is an example of how I want to change my data structure:
 
--  INPUT: `fruits = {'banana':3,'apple':2, 'mango':1, 'kiwi':5}`
+-  INPUT:
+```
+fruits = {'banana':3,'apple':2, 'mango':1, 'kiwi':5}
+```
 
--  OUTPUT: `fruits_list = [
+-  OUTPUT:
+```
+fruits_list = [
     ['banana', 'banana', 'banana'],
     ['apple', 'apple'],
     ['mango'],
-    ['kiwi', 'kiwi', 'kiwi', 'kiwi', 'kiwi']]`
+    ['kiwi', 'kiwi', 'kiwi', 'kiwi', 'kiwi']]
+```
 
 To achieve this, we can start with writing out the steps to a solution.  
 
@@ -46,11 +52,11 @@ print(fruits_list)
 
 Now we could do the same thing with a list comprehension. List comprehension is the act of putting a **for loop** into a list.  This may seem a little weird, but the makers of python realized that it was common enough to use a for loop to create a list that it was important to create a shortcut.  
 
-List Comprehension is tough at first, because it feels unnatural, but the more you code in python, the more you will find the added benifits of using list comprehension.  **Just remember: Everything you do with list comprehension can be done with a for loop.  But the inverse is not true.**
+List Comprehension is tough at first, because it feels unnatural, but the more you code in python, the more you will find the added benefits of using list comprehension.  **Just remember: Everything you do with list comprehension can be done with a for loop.  But the inverse is not true.**
 
 ### Syntax of List Comprehension
 
--`variable = [expression for item in list]`
+- `variable = [expression for item in list]`
 
 You can also add a conditional statement into a list comprehension:
 
